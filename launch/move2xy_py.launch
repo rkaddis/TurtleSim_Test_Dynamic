@@ -1,0 +1,5 @@
+<launch>
+	<node pkg="rqt_reconfigure" type="rqt_reconfigure" name="rqt_console" args="-t"/>
+	<node pkg="turtlesim" name="turtlesim_node" type="turtlesim_node"/>
+	<node pkg="turtlesim_tst_pkg" name="move2xy_py" type="move2xy.py" output="screen"/>
+</launch>

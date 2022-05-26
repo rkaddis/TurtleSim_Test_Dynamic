@@ -1,0 +1,4 @@
+<launch>
+    <node pkg="turtlesim" name="turtlesim_node" type="turtlesim_node" />
+    <node pkg="turtlesim_tst_pkg" name="go5fb" type="go5fb.py" output="screen" />
+</launch>

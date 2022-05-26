@@ -1,0 +1,4 @@
+<launch>
+	<node pkg="turtlesim" name="turtlesim_node" type="turtlesim_node"/>
+	<node pkg="turtlesim_tst_pkg" name="points" type="Points.py"/>
+</launch>

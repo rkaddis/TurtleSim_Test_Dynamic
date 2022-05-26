@@ -1,0 +1,4 @@
+<launch>
+    <node pkg="turtlesim" name="turtlesim_node" type="turtlesim_node" />
+    <node pkg="turtlesim_tst_pkg" name="shuttle2points" type="shuttle2points.py" output="screen" />
+</launch>
